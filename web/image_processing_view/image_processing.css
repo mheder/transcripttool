@@ -1,0 +1,23 @@
+/************************************************************************************************************
+ * Styling for the "image processing view" page. Overwrites (most of) the general styling (from /utils_css).
+
+*************************************************************************************************************/
+
+.RadioWrapper > div {
+  display: flex;
+  align-items: center;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+
+.RadioWrapper label {
+  text-align: left;
+}
+
+#snow_icon{
+  left: 50%;
+  top: -20%;
+}
+
+.stateWrapper{
+}

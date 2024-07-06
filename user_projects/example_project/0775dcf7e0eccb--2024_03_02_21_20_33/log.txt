@@ -1,0 +1,65 @@
+2024-03-02 18:19:23 - Welcome to the logs 
+ project: Example_project 
+save: Borg 1 - Few-shot fine-tuning use case 
+2024-03-02 18:40:53 - Segmentation starting...
+2024-03-02 18:40:58 - Segmentation finished execution.
+2024-03-02 19:09:20 - Clustering starting...
+2024-03-02 19:09:29 - Clustering finished execution.
+2024-03-02 20:10:34 - Label propagation starting...
+2024-03-02 20:10:39 - Label propagation finished execution.
+2024-03-02 20:38:47 - Line segmentation starting...
+2024-03-02 20:38:49 - Line segmentation finished execution.
+2024-03-02 20:39:58 - Line segmentation starting...
+2024-03-02 20:39:59 - Line segmentation finished execution.
+2024-03-02 20:49:11 - Few-shot recognition starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Alphabet = borg
+		 Model = Borg
+		 Read spaces = no
+2024-03-02 20:51:16 - Few-shot recognition finished execution.
+2024-03-02 21:20:45 - Line segmentation starting...
+2024-03-02 21:20:47 - Line segmentation finished execution.
+2024-03-02 21:21:35 - Line segmentation starting...
+2024-03-02 21:21:36 - Line segmentation finished execution.
+2024-03-02 21:24:39 - Few-shot recognition starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Alphabet = borg
+		 Model = Omniglot
+		 Read spaces = no
+2024-03-02 21:26:20 - Few-shot recognition finished execution.
+2024-03-02 21:57:53 - Few-shot training starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Epochs = 6
+		 Alphabet = borg
+		 Model = Omniglot
+		 Fine tuned model = Borg_fine_tune_UC
+		 Read spaces = no
+		 Validation = no
+2024-03-02 22:07:26 - Few-shot training finished execution.
+2024-03-02 22:16:08 - Few-shot recognition starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Alphabet = borg
+		 Model = Borg_fine_tune_UC
+		 Read spaces = no
+2024-03-02 22:17:32 - Few-shot recognition finished execution.
+2024-03-02 22:32:58 - Few-shot training starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Epochs = 6
+		 Alphabet = borg
+		 Model = Borg_fine_tune_UC
+		 Fine tuned model = Borg_fine_tune_UC
+		 Read spaces = no
+		 Validation = no
+2024-03-02 22:49:28 - Few-shot training finished execution.
+2024-03-02 22:53:02 - Few-shot recognition starting...
+		 Number of shots = 5
+		 Threshold = 0.4
+		 Alphabet = borg
+		 Model = Borg_fine_tune_UC
+		 Read spaces = no
+2024-03-02 22:55:34 - Few-shot recognition finished execution.

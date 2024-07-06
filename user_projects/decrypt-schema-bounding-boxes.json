@@ -1,0 +1,152 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/product.schema.json",
+    "title": "decrypt-json-bounding-boxes-dataformat-specification",
+    "description": "Specification of the json bounding boxes dataformat used by the DECRYPT project",
+    "type": "object",
+    "required": [ "documents" ],
+    "properties": {
+        "documents": {
+            "description": "contains the images and their symbol bounding boxes",
+            "type": "object",
+            "propertyNames": {
+                "description": "string specifying the name of the image, it must have an extension of jpg/jpeg/png",
+                "type": "string",
+                "pattern": "^[\\w,\\s-]+\\.[jpg|png]+$"
+            },
+            "additionalProperties": {
+                "description": "array containing the symbol box objects of the given image",
+                "type": "array",
+                "default": [],
+                "items": {
+                    "description": "symbol box object",
+                    "type": "object",
+                    "required": [
+                        "cluster_id",
+                        "left",
+                        "top",
+                        "width",
+                        "height"
+                    ],
+                    "properties": {
+                        "cluster_id": {
+                            "description": "unique identifier - an integer (can be negative as well) - of the cluster which the box belongs to",
+                            "type": "string",
+                            "default": "0",
+                            "pattern": "^-?[0-9]+$",
+                            "examples": [
+                                "36"
+                            ]
+                        },
+                        "left": {
+                            "description": "horizontal coordinate of box in proportion to the image width",
+                            "type": "number",
+                            "default": 0.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.022
+                            ]
+                        },
+                        "top": {
+                            "description": "vertical coordinate of box in proportion to the image height",
+                            "type": "number",
+                            "default": 0.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.056
+                            ]
+                        },
+                        "width": {
+                            "description": "width of box in proportion to the image width",
+                            "type": "number",
+                            "default": 1.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.026
+                            ]
+                        },
+                        "height": {
+                            "description": "height of box in proportion to the image height",
+                            "type": "number",
+                            "default": 1.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.049
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "lines": {
+            "description": "contains the images and their line bounding boxes",
+            "type": "object",
+            "propertyNames": {
+                "description": "string specifying the name of the image, it must have an extension of jpg/jpeg/png",
+                "type": "string",
+                "pattern": "^[\\w,\\s-]+\\.[jpg|png]+$"
+            },
+            "additionalProperties": {
+                "description": "array containing the line box objects of the given image",
+                "type": "array",
+                "default": [],
+                "items": {
+                    "description": "line box object",
+                    "type": "object",
+                    "required": [
+                        "left",
+                        "top",
+                        "width",
+                        "height"
+                    ],
+                    "properties": {
+                        "left": {
+                            "description": "horizontal coordinate of box in proportion to the image width",
+                            "type": "number",
+                            "default": 0.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.021
+                            ]
+                        },
+                        "top": {
+                            "description": "vertical coordinate of box in proportion to the image height",
+                            "type": "number",
+                            "default": 0.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.053
+                            ]
+                        },
+                        "width": {
+                            "description": "width of box in proportion to the image width",
+                            "type": "number",
+                            "default": 1.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.026
+                            ]
+                        },
+                        "height": {
+                            "description": "height of box in proportion to the image height",
+                            "type": "number",
+                            "default": 1.0,
+                            "minimum": 0.0,
+                            "maximum": 1.0,
+                            "examples": [
+                                0.049
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

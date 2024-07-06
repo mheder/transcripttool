@@ -1,0 +1,159 @@
+/************************************************************************************************************
+ * Styling for the "post-processing view" page. Overwrites (most of) the general styling (from /utils_css).
+
+*************************************************************************************************************/
+
+
+/* boxes */
+.frozen{ /* original style in boxes.css */
+  box-shadow: none;
+}
+
+/* used on boxes which are "done", indicated by checking the checkbox on the transcription list's corresponding entry  */
+.transcriptedCluster{
+  box-shadow: inset 0 0 0 10000px #0000009e;
+}
+
+/* used on boxes which are currently "selected" that is should be above the image and visible to the user */
+.selectedCluster{
+  z-index: 3;
+}
+
+/* ..................................................Transcription List........................................... */
+.trListElements{
+  list-style-type: none;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--mild_grey);
+  border-radius: 10px;
+  height: 8%;
+  margin: 2.8% 0 2.8% 0;
+  cursor: pointer;
+  border: solid 2px transparent;
+}
+
+.trListTranscription{
+  font-size: 0.6vw;
+  height: 30%;
+  width: 40%;
+  font-family: serif;
+  border-radius: 5px;
+  border-color: white;
+  padding: 4%;
+  margin-right: 15%;
+  border: 0;
+  text-align: center;
+  color: black;
+}
+.transcriptionPreview{
+  color: red;
+  font-size: 1.3vw;
+  bottom: 100%;
+  left: 100%;
+  position: absolute;
+}
+.trListCheckbox{
+  height: 70%;
+  min-width: 13%;
+}
+.activeListElement{
+  border: solid 2px black;
+}
+.transcriptionDone{
+  background: #11c800;
+}
+
+/* ..................................................Preview Button........................................... */
+#transcriptionPreviewButton {
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  font-size: 120%;
+}
+#transcriptionPreviewButtonToolTip {
+  font-size: 90%;
+}
+
+.activeToggle{
+  background-color: var(--light_grey);
+}
+
+/* ..................................................Page Layout........................................... */
+#rightButtonArea{
+  right: 0;
+  border-radius: 20px 0px 0px 20px;
+}
+#rightButtonAreaWidget{
+  right: 0px;
+  border-radius: 999px 0px 0px 999px; /* Rounded corners on the top right and bottom right side */
+}
+
+#trMenu{
+  height: 80%;
+  margin:  3.3%;
+  background: var(--light_grey); /*#2c2c2b*/
+  padding: 3.3%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.trMenuWrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+/* ..................................................Canvas for the Graphic Alphabet........................................... */
+.canvasWrapper{
+  height: 90%;
+  width: 95%; 
+  overflow: scroll;   
+}
+
+.canvasElement{
+  border: solid 5px transparent;
+}
+.selectableCanvasElement{
+  cursor: pointer;
+}
+.selectedCanvas{
+  border: solid 5px red;
+}
+.animateCanvas{
+  animation: pulseBackForthCanvas 1s 3;
+}
+
+@keyframes pulseBackForthCanvas {
+  0% {
+    border: solid 5px red;
+  }
+  50% {
+    border: solid 5px transparent;
+  }
+  100% {
+    border: solid 5px red;
+  }
+}
+
+.animateBox{
+  animation: pulseBackForth 1s 3;
+  
+}
+
+@keyframes pulseBackForth {
+  0% {
+    outline: 10px solid red;
+    border: solid 2px transparent;
+  }
+  50% {
+    outline: solid 10px transparent;
+    border: solid 2px transparent;
+  }
+  100% {
+    outline: 10px solid red;
+    border: solid 2px transparent;
+  }
+}

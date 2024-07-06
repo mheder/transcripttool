@@ -1,0 +1,799 @@
+{
+    "documents": {
+        "IMG_R210_I1301_P8.png": [
+            {
+                "cluster_id": "14",
+                "left": 0.136,
+                "top": 0.001,
+                "width": 0.076,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.226,
+                "top": 0.001,
+                "width": 0.06,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.261,
+                "top": 0.001,
+                "width": 0.05,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.313,
+                "top": 0.001,
+                "width": 0.065,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.38,
+                "top": 0.001,
+                "width": 0.052,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.435,
+                "top": 0.001,
+                "width": 0.071,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.509,
+                "top": 0.001,
+                "width": 0.048,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.565,
+                "top": 0.004,
+                "width": 0.054,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.65,
+                "top": 0.001,
+                "width": 0.068,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.793,
+                "top": 0.001,
+                "width": 0.074,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "23",
+                "left": 0.875,
+                "top": 0.001,
+                "width": 0.024,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.899,
+                "top": 0.001,
+                "width": 0.071,
+                "height": 0.084
+            },
+            {
+                "cluster_id": "13",
+                "left": 0.005,
+                "top": 0.089,
+                "width": 0.035,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "12",
+                "left": 0.043,
+                "top": 0.089,
+                "width": 0.041,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.085,
+                "top": 0.089,
+                "width": 0.042,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.128,
+                "top": 0.089,
+                "width": 0.05,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.178,
+                "top": 0.089,
+                "width": 0.038,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.217,
+                "top": 0.089,
+                "width": 0.059,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "14",
+                "left": 0.293,
+                "top": 0.089,
+                "width": 0.093,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.387,
+                "top": 0.089,
+                "width": 0.046,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.434,
+                "top": 0.089,
+                "width": 0.026,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "1",
+                "left": 0.461,
+                "top": 0.089,
+                "width": 0.031,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "12",
+                "left": 0.494,
+                "top": 0.089,
+                "width": 0.049,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.542,
+                "top": 0.086,
+                "width": 0.061,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "6",
+                "left": 0.632,
+                "top": 0.089,
+                "width": 0.045,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.679,
+                "top": 0.089,
+                "width": 0.072,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.753,
+                "top": 0.097,
+                "width": 0.049,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.805,
+                "top": 0.089,
+                "width": 0.044,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "1",
+                "left": 0.851,
+                "top": 0.089,
+                "width": 0.023,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.875,
+                "top": 0.089,
+                "width": 0.051,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "14",
+                "left": 0.927,
+                "top": 0.089,
+                "width": 0.059,
+                "height": 0.061
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.062,
+                "top": 0.14,
+                "width": 0.054,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "11",
+                "left": 0.149,
+                "top": 0.145,
+                "width": 0.045,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "4",
+                "left": 0.195,
+                "top": 0.145,
+                "width": 0.032,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "15",
+                "left": 0.228,
+                "top": 0.145,
+                "width": 0.077,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.307,
+                "top": 0.145,
+                "width": 0.051,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.36,
+                "top": 0.145,
+                "width": 0.028,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "12",
+                "left": 0.389,
+                "top": 0.145,
+                "width": 0.051,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "23",
+                "left": 0.441,
+                "top": 0.145,
+                "width": 0.054,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "23",
+                "left": 0.512,
+                "top": 0.145,
+                "width": 0.065,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.571,
+                "top": 0.145,
+                "width": 0.037,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.615,
+                "top": 0.145,
+                "width": 0.068,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.684,
+                "top": 0.145,
+                "width": 0.046,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.789,
+                "top": 0.145,
+                "width": 0.067,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "14",
+                "left": 0.88,
+                "top": 0.145,
+                "width": 0.063,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.944,
+                "top": 0.145,
+                "width": 0.048,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.003,
+                "top": 0.198,
+                "width": 0.051,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "15",
+                "left": 0.055,
+                "top": 0.198,
+                "width": 0.071,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "13",
+                "left": 0.116,
+                "top": 0.216,
+                "width": 0.046,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.178,
+                "top": 0.197,
+                "width": 0.064,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.27,
+                "top": 0.198,
+                "width": 0.063,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "11",
+                "left": 0.342,
+                "top": 0.163,
+                "width": 0.045,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.381,
+                "top": 0.198,
+                "width": 0.066,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.45,
+                "top": 0.198,
+                "width": 0.06,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.688,
+                "top": 0.198,
+                "width": 0.064,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.769,
+                "top": 0.198,
+                "width": 0.058,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "15",
+                "left": 0.832,
+                "top": 0.198,
+                "width": 0.092,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.916,
+                "top": 0.198,
+                "width": 0.062,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.002,
+                "top": 0.251,
+                "width": 0.054,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.059,
+                "top": 0.251,
+                "width": 0.062,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.124,
+                "top": 0.251,
+                "width": 0.063,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.187,
+                "top": 0.251,
+                "width": 0.066,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "14",
+                "left": 0.257,
+                "top": 0.251,
+                "width": 0.058,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "12",
+                "left": 0.315,
+                "top": 0.251,
+                "width": 0.055,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.372,
+                "top": 0.251,
+                "width": 0.047,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.42,
+                "top": 0.251,
+                "width": 0.056,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.519,
+                "top": 0.251,
+                "width": 0.058,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.578,
+                "top": 0.251,
+                "width": 0.035,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.615,
+                "top": 0.251,
+                "width": 0.056,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "23",
+                "left": 0.673,
+                "top": 0.251,
+                "width": 0.025,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.699,
+                "top": 0.251,
+                "width": 0.051,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "12",
+                "left": 0.775,
+                "top": 0.251,
+                "width": 0.05,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.828,
+                "top": 0.251,
+                "width": 0.037,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.867,
+                "top": 0.251,
+                "width": 0.047,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "5",
+                "left": 0.914,
+                "top": 0.251,
+                "width": 0.035,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.95,
+                "top": 0.251,
+                "width": 0.044,
+                "height": 0.055
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.003,
+                "top": 0.304,
+                "width": 0.043,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.047,
+                "top": 0.304,
+                "width": 0.058,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.135,
+                "top": 0.304,
+                "width": 0.048,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.185,
+                "top": 0.304,
+                "width": 0.04,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.227,
+                "top": 0.304,
+                "width": 0.058,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "3",
+                "left": 0.287,
+                "top": 0.304,
+                "width": 0.046,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.334,
+                "top": 0.304,
+                "width": 0.054,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.488,
+                "top": 0.304,
+                "width": 0.024,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "6",
+                "left": 0.516,
+                "top": 0.304,
+                "width": 0.041,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "1",
+                "left": 0.558,
+                "top": 0.304,
+                "width": 0.044,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "21",
+                "left": 0.692,
+                "top": 0.304,
+                "width": 0.077,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.77,
+                "top": 0.304,
+                "width": 0.029,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.8,
+                "top": 0.304,
+                "width": 0.053,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "18",
+                "left": 0.854,
+                "top": 0.304,
+                "width": 0.052,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "19",
+                "left": 0.908,
+                "top": 0.304,
+                "width": 0.042,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "17",
+                "left": 0.951,
+                "top": 0.304,
+                "width": 0.041,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.367,
+                "width": 0.998,
+                "height": 0.059,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.423,
+                "width": 0.998,
+                "height": 0.073,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.003,
+                "top": 0.477,
+                "width": 0.987,
+                "height": 0.058,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.586,
+                "width": 0.998,
+                "height": 0.056,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.642,
+                "width": 0.998,
+                "height": 0.057,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.699,
+                "width": 0.998,
+                "height": 0.073,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.003,
+                "top": 0.76,
+                "width": 0.987,
+                "height": 0.063,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.879,
+                "width": 0.998,
+                "height": 0.059,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.938,
+                "width": 0.998,
+                "height": 0.061,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0.002,
+                "top": 0.527,
+                "width": 0.998,
+                "height": 0.058,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "-2",
+                "left": 0,
+                "top": 0.819,
+                "width": 0.985,
+                "height": 0.059,
+                "frozen": ""
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.72,
+                "top": 0.205,
+                "width": 0.068,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "16",
+                "left": 0.311,
+                "top": 0.204,
+                "width": 0.068,
+                "height": 0.063
+            },
+            {
+                "cluster_id": "23",
+                "left": 0.34,
+                "top": 0.003,
+                "width": 0.078,
+                "height": 0.084
+            }
+        ]
+    },
+    "lines": {
+        "IMG_R210_I1301_P8.png": [
+            {
+                "left": 0.002,
+                "top": 0.001,
+                "width": 0.998,
+                "height": 0.084
+            },
+            {
+                "left": 0.002,
+                "top": 0.089,
+                "width": 0.998,
+                "height": 0.061
+            },
+            {
+                "left": 0.002,
+                "top": 0.145,
+                "width": 0.998,
+                "height": 0.063
+            },
+            {
+                "left": 0.002,
+                "top": 0.198,
+                "width": 0.998,
+                "height": 0.055
+            },
+            {
+                "left": 0.001,
+                "top": 0.251,
+                "width": 0.998,
+                "height": 0.055
+            },
+            {
+                "left": 0.002,
+                "top": 0.304,
+                "width": 0.998,
+                "height": 0.063
+            }
+        ]
+    }
+}

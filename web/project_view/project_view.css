@@ -1,0 +1,395 @@
+/************************************************************************************************************
+ * Styling for the "project view" page. Overwrites (most of) the general styling (from /utils_css).
+
+***************************************************************************************************************/
+
+/* .....................................Layout........................................................ */
+
+body {
+  background-image: url("../../images/bg_copiale_inverted.jpg"); 
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  /* might not be necessary */
+  overflow: hidden;
+}
+.containerMainPage{
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  padding: 0.625%;
+  flex-direction: row;
+  align-items: center;    
+  -moz-user-select: none;  /* prevent blue/red highlight on double click */
+  -webkit-user-select: none; /* prevent blue/red highlight on double click */
+  -ms-user-select: none; /* prevent blue/red highlight on double click */
+  -o-user-select: none; /* prevent blue/red highlight on double click */
+  user-select: none; /* prevent blue/red highlight on double click */
+}
+
+#header{
+  position: inherit;
+}
+
+#decryptTitle {
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  position: relative;
+  left: 0;
+  padding: 0.5%;
+  margin: 0.5%;
+  font-size: 150%;
+}
+
+
+#areaWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.toolWidget{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed; 
+  top: 11%;
+  left: 80%;
+  height: 7%;
+  width: 16%;
+  background-color: var(--light_grey);
+  z-index: 10;
+}
+
+/* ................................Left Area........................................ */
+
+#leftArea{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.leftAreaButton{
+  text-align: center;
+  color: white;
+  border: 0;
+  width: 80%;
+  cursor: pointer;
+  background: var(--light_grey);
+  padding: 2%;
+  margin: 5%;
+}
+
+#createNewSaveButton {
+  
+}
+.leftAreaButton:hover{
+  background: var(--dark_grey);
+}
+
+#imagePreviewArea{
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 2%;
+  height: 80%;
+}
+
+#selectDeselectToggle {
+  cursor: pointer;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.toggleLabel{
+  font-weight: bold;
+  font-size: 80%;
+  pointer-events: none;
+  color: white;
+}
+.toggleCheckbox{
+  pointer-events: none;
+}
+
+.thumbnailElement{
+  display: flex;
+  cursor: pointer;
+  height: 20%;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  margin: 2%;
+}
+.selectedThumbnailElement{
+  background-color: var(--darkest_grey);
+}
+
+.thumbnailImageName{
+  color: white;
+  font-size: 70%;
+  padding: 1%;
+  word-wrap: anywhere;
+  text-align: center;
+  margin: 3%;
+  /* to simplify event handling of clicking thumbnailElement in js */
+  pointer-events: none;
+}
+
+.thumbnailImageWrapper{
+  margin: 1%;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  position: relative;
+  /* to simplify event handling of clicking thumbnailElement in js */
+  pointer-events: none;
+}
+
+.thumbnailImage{
+  object-fit: contain;
+  height: 100%;
+  overflow: hidden;
+}
+
+.thumbnailCheckbox{
+  position: absolute;
+  top: -10%;
+  left: -5%;
+}
+
+/* ................................Center Area........................................ */
+
+#centerArea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+#saveTable{
+  width: 100%;
+}
+
+#save_table_wrapper{
+  overflow-y: scroll;
+  height: 60%;
+  margin: 3%;
+  background-color: var(--dark_grey);
+  padding: 2%;
+}
+
+.saveTableHeadElement{
+  color: white;
+  font-size: 150%;
+}
+
+.saveRow{
+  margin: 5%;
+  background-color: var(--mild_grey);
+}
+.saveRow:hover{
+  background: var(--darkest_grey);
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.actionSelection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.actionTitle{
+  color: white;
+  font-size: 100%;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+.actionElement{
+  color: white;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0.5%;
+  margin: 0.5%;
+  cursor: pointer;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+}
+
+.log{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark_grey);
+  z-index: 10; /* need to have it on top */
+  overflow-y: scroll;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 15%;
+}
+
+.logElement{
+  color: white;
+  word-wrap: break-word;
+  padding-bottom: 3%;
+  font-family: serif;
+  font-size: 0.9vw;
+}
+
+/* ................................Dropdown Menu........................................ */
+
+#lets_go_button{
+  color: white;
+  background-color: var(--light_grey);
+  width: 20%;
+  flex-grow: 1;
+  margin: 2%;
+  text-align: center;
+  border: 5px solid var(--light_grey);
+  cursor: pointer;
+}
+
+#lets_go_button:hover{
+  background: var(--dark_grey);
+  border: 5px solid var(--dark_grey);
+}
+
+.numbering{
+  color: white;
+  background-color:  var(--light_grey);
+  font-size: 2.2vw;
+  padding: 1%;
+}
+
+.stateDropdownMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin: 2%;
+  margin-left: 0;
+  flex-basis: 40%;
+  border: 5px solid var(--light_grey);
+  background: var(--light_grey);
+}
+.saveArea {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#saveWrapper{
+  overflow-y: scroll;
+  flex-basis: auto;
+}
+
+input.dropdownStateMainPage {
+  font-size: 0.9vw;
+  font-family: serif;
+  border-color: white;
+  border: 0;
+  color: white;
+  font-weight: bold;
+} 
+
+#loadSave {
+  text-align: center;
+  padding: 5%;
+  background: var(--light_grey);
+  color: white;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+#imageMenu {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+.dropdownStateMainPage{
+  text-align: center;
+  padding: 5%;
+  background: var(--light_grey);
+  font-size: 0.9vw;
+}
+
+.emptyDropdownState{
+  opacity: .7;
+}
+
+.disabledDropdownState{
+  cursor: not-allowed;
+}
+
+.dropdownStateMainPage:hover{
+  background: var(--dark_grey);
+}
+
+#loadSave:hover{
+  background: var(--dark_grey);
+}
+
+.selectedMenuElement{
+  background: var(--darkest_grey);
+}
+
+/* ................................Overwrites........................................ */
+
+.toolTip {
+  top: 7%;
+}
+
+.dropdownState{
+  display: block;
+}
+
+/* ................................Navigation Bar........................................ */
+
+.navigationBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--light_grey);
+  position: fixed;
+  top: 0; 
+}
+
+.navigationBar > li {
+  float: left;
+}
+
+.navigationBarElement{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigationBarElement:hover {
+  background-color: var(--dark_grey);
+}

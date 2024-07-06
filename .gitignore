@@ -1,0 +1,22 @@
+# generated
+/.idea
+.vscode
+**__pycache__**
+
+# # images
+libs/**/*.jpg
+libs/**/*.png
+libs/**/*.gif
+
+# few shots
+gpu/few_shot/alphabet
+gpu/few_shot/models
+
+# models
+*.pth
+
+# server config
+config.php
+
+# miniconda
+miniconda.sh

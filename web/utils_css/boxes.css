@@ -1,0 +1,72 @@
+/************************************************************************************************************
+ * Styling for symbol boxes on the image, used in all the three view pages.
+
+***************************************************************************************************************/
+
+.boxes{ /* general attributes of any symbol box on the image */
+  position: absolute !important;
+  z-index: 2;
+}
+.draggable_resizable_object{ /* general attributes of any draggable and resizable symbol box on the image */
+  cursor: move; 
+  z-index: 2;
+  border: solid 2px black;
+}
+
+/* ! gets overwritten in post-processing view */
+.frozen{ /* style is duplicate of ".transcriptedCluster" */
+  box-shadow: inset 0 0 0 10000px #0000009e;
+  border: solid 2px #0000009e;
+}
+
+.clicked_border{ /* applied to any selected box, only works under .draggable_resizable_object */
+  border: 2px solid red;
+  z-index: 3;
+}
+
+.no_border{  /* used on box during jquery UI resizing happens */
+  opacity: 0;
+}
+.ui-resizable-helper{ /* used on helper during jquery UI resizing happens */
+  border: 1px dotted rgba(0, 0, 255, 1); 
+}
+
+.ui-icon { /* hide small resizer widget */
+  background-image: none;
+}
+
+/* decrease size of jquery UI resizable helper components to enable easier dragging */
+.ui-resizable-n {
+  height: 3px;
+}
+.ui-resizable-e {
+
+  width: 3px;
+}
+.ui-resizable-s {
+
+  height: 3px;
+}
+.ui-resizable-w {
+
+  width: 3px;
+}
+.ui-resizable-sw {
+
+  width: 5px;
+  height: 5px;
+}
+.ui-resizable-ne {
+  width: 5px;
+  height: 5px;
+}
+.ui-resizable-nw {
+  width: 5px;
+  height: 5px;
+}
+.ui-resizable-se {
+  width: 5px;
+  height: 5px;
+  right:-3px;
+  bottom:-3px;
+}

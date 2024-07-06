@@ -1,0 +1,174 @@
+/************************************************************************************************************
+ * Styling for the "pre-processing view" page. Overwrites (most of) the general styling (from /utils_css).
+
+*************************************************************************************************************/
+
+
+/* ..................................................Cropping Helper........................................... */
+.cropper{
+  position: absolute !important;
+  fill-opacity: 0;
+  cursor: move;
+  z-index: 3;  
+}
+.cropper_border{
+  border: 5px solid red;
+}
+.ui-resizable-helper{ 
+  border: 1px dotted rgba(0, 0, 255, 1); 
+}
+
+.ui-icon { /* hide small resizer widget */
+  background-image: none;
+  right: -10px;
+  bottom: -10px;
+}
+
+/* increase size of jquery UI resizable helper components to make resizing easier */
+.ui-resizable-n {
+  top:-15px;
+  height: 30px;
+}
+.ui-resizable-e {
+  right:-15px;
+  width: 30px;
+}
+.ui-resizable-s {
+  bottom:-15px;
+  height: 30px;
+}
+.ui-resizable-w {
+  left:-15px;
+  width: 30px;
+}
+.ui-resizable-sw {
+  width: 30px;
+  height: 30px;
+  left:-15px;
+  bottom:-15px;
+}
+.ui-resizable-ne {
+  width: 30px;
+  height: 30px;
+  right:-15px;
+  top:-15px;
+}
+.ui-resizable-nw {
+  width: 30px;
+  height: 30px;
+  left:-15px;
+  top:-15px;
+}
+.ui-resizable-se {
+  width: 30px;
+  height: 30px;
+  right:-15px;
+  bottom:-15px;
+}
+
+/* ..............................................arrows for rotation......................................... */
+.rot_arrow{
+  font-size: 40px;
+}
+.rot_arrow.ninty_arrow{
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  
+}
+
+/* ................................Layout overrides........................................ */
+.over_image{
+  display: flex;
+  position: fixed; 
+  transition: 0.3s; 
+  top: 0px;
+  left: 50%;
+  height: 0px;
+  transform: translateX(-50%);
+  background-color: var(--light_grey);
+  z-index: 4;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px; 
+}
+
+#reloadDocumentButton {
+  border-right: solid 2px white;
+  padding-right: 5%;
+}
+
+.rot_arrow > .toolTip{
+  font-size: 40%;
+}
+.ninty_arrow > .toolTip{
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  top: -60%;
+  padding: 8%;
+}
+
+.onClickOverImage{
+  height: 50px;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.stateWrapper{
+  top: 20%;
+  height: 70%;
+}
+
+#binarizeStateWrapper{
+  flex-direction: column;
+}
+
+.binarizeInputWrapper{
+  background-color: var(--light_grey);
+  border: 2px solid white;
+  color: white;
+  font-family: serif;
+  font-size: 0.8vw;
+  font-weight: bold;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.RadioWrapper{
+  color: white;
+  padding: 5%;
+}
+
+.RadioWrapper > div {
+  display: flex;
+  align-items: center;
+}
+
+#binarizeStateWrapper .stateDropdownMenu{
+  width: 100%;
+  height: 10%;
+}
+
+.radioElements{
+  padding: 2%;
+  margin: 2%;
+}
+.radioInnerWrapper{
+  padding: 1%;
+  margin: 1%;
+}
+.radioInnerWrapper:hover{
+  background: var(--dark_grey);
+}
+.binarizeTooltip{
+  visibility: hidden;
+  left: 100%;
+  font-size: 0.7vw;
+  margin: 2%;
+  border-radius: 0;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  padding: 5%;
+  width: 70%;
+  border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+{
+    "project_id": "",
+    "save_id": "",
+    "user_given_project_name": "",
+    "user_given_save_name": "",
+    "GPU_server_result_transmission": {
+        "few_shot_recognition": {
+            "finished": 1,
+            "session_id": ""
+        },
+        "few_shot_training": {
+            "finished": 1,
+            "session_id": "",
+            "model_key": "",
+            "model_name": ""
+        }
+    },
+    "image_name_mapping": {},
+    "fine_tuned_model_name_mapping": {}
+}

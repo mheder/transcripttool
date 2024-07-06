@@ -1,0 +1,10 @@
+services:
+    transcripttool:
+        container_name: transcripttool
+        image: transcripttool
+        restart: always
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        ports:
+            - 8080:80

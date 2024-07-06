@@ -1,0 +1,108 @@
+{
+    "transcriptions": {
+        "0": {
+            "transcription": "dt",
+            "color": "#ff0062"
+        },
+        "1": {
+            "color": "#00ffe6",
+            "transcription": "v"
+        },
+        "2": {
+            "transcription": "cm",
+            "color": "#4100ff"
+        },
+        "3": {
+            "color": "#1000ff",
+            "transcription": "h"
+        },
+        "4": {
+            "color": "#00b4ff",
+            "transcription": "o"
+        },
+        "5": {
+            "color": "#0083ff",
+            "transcription": "m"
+        },
+        "6": {
+            "color": "#a400ff",
+            "transcription": "5"
+        },
+        "7": {
+            "transcription": "M",
+            "color": "#41ff00"
+        },
+        "8": {
+            "transcription": "cl",
+            "color": "#00ff52"
+        },
+        "9": {
+            "transcription": "4",
+            "color": "#ff3100"
+        },
+        "10": {
+            "transcription": "2",
+            "color": "#7300ff"
+        },
+        "11": {
+            "color": "#00e6ff",
+            "transcription": "q"
+        },
+        "12": {
+            "color": "#ffc500",
+            "transcription": "d"
+        },
+        "13": {
+            "color": "#00ffb4",
+            "transcription": "0"
+        },
+        "14": {
+            "color": "#00ff83",
+            "transcription": "i"
+        },
+        "15": {
+            "color": "#d500ff",
+            "transcription": "n"
+        },
+        "16": {
+            "color": "#ff00f6",
+            "transcription": "9"
+        },
+        "17": {
+            "color": "#10ff00",
+            "transcription": "x"
+        },
+        "18": {
+            "color": "#0052ff",
+            "transcription": "w"
+        },
+        "19": {
+            "color": "#ff00c5",
+            "transcription": "8"
+        },
+        "20": {
+            "transcription": "c",
+            "color": "#73ff00"
+        },
+        "21": {
+            "color": "#0020ff",
+            "transcription": "6"
+        },
+        "22": {
+            "transcription": "y",
+            "color": "#ff9400"
+        },
+        "23": {
+            "color": "#a4ff00",
+            "transcription": "1"
+        },
+        "-1": {
+            "transcription": "space",
+            "color": "#ff0092"
+        },
+        "-2": {
+            "color": "#00d5ff",
+            "transcription": "?"
+        }
+    }
+}

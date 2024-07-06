@@ -1,0 +1,65 @@
+/************************************************************************************************************
+ * Styling for scrollbars. Note: Firefox has a different ways of styling scrollbars than the other browsers.
+
+***************************************************************************************************************/
+
+#trMenu::-webkit-scrollbar {
+  width: 8px;
+}
+#trMenu { /* no border radius for Firefox yet */
+  scrollbar-width: auto;
+  scrollbar-color: var(--darkest_grey) var(--light_grey);
+}
+#trMenu::-webkit-scrollbar-track {
+  background: var(--light_grey);
+}
+#trMenu::-webkit-scrollbar-thumb {
+  background-color: var(--dark_grey) ;
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body { /* no border radius for Firefox yet */
+  scrollbar-width: thin; 
+  scrollbar-color: var(--very_light) var(--light_grey);
+}
+body::-webkit-scrollbar-track {
+  background: var(--very_light);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--light_grey) ;
+}
+
+.errorWidget::-webkit-scrollbar {
+  width: 8px;
+}
+.errorWidget { /* no border radius for Firefox yet */
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark_grey) var(--light_grey);
+}
+.errorWidget::-webkit-scrollbar-track {
+  background: var(--light_grey);
+  border-radius: 0px 6px 6px 0px;
+}
+.errorWidget::-webkit-scrollbar-thumb {
+  background-color: var(--dark_grey) ;
+  border-radius: 6px;
+}
+
+.log::-webkit-scrollbar {
+  width: 8px;
+}
+.log { /* no border radius for Firefox yet */
+  scrollbar-width: auto;
+  scrollbar-color: var(--very_light) var(--light_grey);
+}
+.log::-webkit-scrollbar-track {
+  background: var(--light_grey);
+  border-radius: 0px 6px 6px 0px;
+}
+.log::-webkit-scrollbar-thumb {
+  background-color: var(--very_light) ;
+  border-radius: 6px;
+}

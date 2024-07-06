@@ -1,0 +1,666 @@
+/************************************************************************************************************
+ * Styling for the general layout of all pages.
+
+***************************************************************************************************************/
+
+body {
+  background-image: url("../../images/bg_copiale_inverted.jpg"); 
+}
+
+.container{
+  display: flex;
+  padding: 0.625%;
+  -moz-user-select: none;  /* prevent blue/red highlight on double click */
+  -webkit-user-select: none; /* prevent blue/red highlight on double click */
+  -ms-user-select: none; /* prevent blue/red highlight on double click */
+  -o-user-select: none; /* prevent blue/red highlight on double click */
+  user-select: none; /* prevent blue/red highlight on double click */
+}
+
+.image_area{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+.imageName{
+  color: white;
+  font-size: 1.4vw;
+  padding: 1%;
+}
+
+.b_image{
+  width: 75vw;   
+  margin-top: 2%;
+  display: block;
+  z-index: 1;  
+}
+
+.overButtonArea{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-basis: 40%;
+} 
+.toolTipButton{
+  font-size: 140%;
+  padding: 0.6%;
+  margin: 1%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.toolTip{
+  visibility: hidden;
+  background-color: var(--mild_grey);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  white-space: nowrap;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 5;
+  padding: 0.6%;
+  top: 110%;
+  font-size: 70%;
+}
+
+#homeButtonWrapper {
+  padding: 2%;
+}
+
+/* Left Menu */
+
+#leftMenu{
+  display: flex;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  position: fixed;
+  z-index: 6;
+  left: -100%;
+  top: 0;
+  height: 100%;
+  width: 15%;
+  overflow-y: scroll;
+  padding: 0.5%;
+  transition: left .35s ease-in-out;
+}
+
+#leftMenu.activeLeftMenu{
+  left: 0;
+  box-shadow: 0 0 0 10000px #0000009e;
+}
+
+#leftMenuButton{
+  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+  position: relative;
+  left: 0;
+  padding: 0.5%;
+  border-right: solid 2px white;
+  margin: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+}
+
+.hyperlink{
+  color: #3e70bb;
+  padding: 1%;
+}
+
+.menuHeading{
+  border-bottom: solid 2px black ;
+}
+
+/* Header */
+
+#header{
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  z-index: 5;
+  align-items: center;
+  background-color: var(--dark_grey);
+  justify-content: space-between;
+}
+
+#pageTitle{
+  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  padding: 0.5%;
+  border-left: solid 2px white;
+  margin: 0.5%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+
+/* saving utility */
+.drowndownSaveWrapperHover{
+  visibility: hidden;
+  position: absolute;
+  top: 120%;
+  align-items: center;
+  background:  var(--light_grey);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5%;
+  transition: 1s visibility; /* this line will delay the loss of visibility after hover is off */
+}
+.drowndownSaveWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--mild_grey);
+}
+#loadSave, #currentSaveLabel {
+  font-size: 1.1vw;
+  padding: 2%;
+  white-space: nowrap;
+  margin: 1%;
+}
+#currentSaveLabel {
+  cursor: auto;
+}
+#loadSave:hover{
+  background: var(--dark_grey);
+}
+
+.dropdownSaveElement{
+  padding: 2%;
+  margin: 1%;
+  font-size: 1vw;
+  font-family: serif;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+.dropdownSaveElement:hover{
+  background: var(--dark_grey);
+}
+#saveDropdown:hover .drowndownSaveWrapperHover{
+  visibility: visible;
+}
+.selectedDropdownSaveElement{
+  background: var(--darkest_grey);
+}
+/* end of saving utility */
+
+#projectButton:hover #projectButtonToolTip{
+  visibility: visible;
+}
+
+/* main page */
+#saveViewButton:hover #saveViewButtonToolTip{
+  visibility: visible;
+}
+#removeImagesButton:hover #removeImagesButtonToolTip{
+  visibility: visible;
+}
+#deleteButton:hover #deleteButtonToolTip{
+  visibility: visible;
+}
+#copyButton:hover #copyButtonToolTip{
+  visibility: visible;
+}
+#renameButton:hover #renameButtonToolTip{
+  visibility: visible;
+}
+
+
+/* preprocessing */
+#homeButton:hover #homeButtonToolTip{
+  visibility: visible;
+}
+
+#reloadPageButton:hover #reloadPageButtonToolTip{
+  visibility: visible;
+}
+#reloadDocumentButton:hover #reloadDocumentButtonToolTip{
+  visibility: visible;
+}
+#left_ninty:hover #left_nintyToolTip{
+  visibility: visible;
+}
+#left_small:hover #left_smallToolTip{
+  visibility: visible;
+}
+#reload:hover #reloadToolTip{
+  visibility: visible;
+}
+#right_small:hover #right_smallToolTip{
+  visibility: visible;
+}
+#right_ninty:hover #right_nintyToolTip{
+  visibility: visible;
+}
+
+#binarizationRadioOtsuWrapper:hover #binarizationRadioOtsuToolTip{
+  visibility: visible;
+}
+#binarizationRadioGaussianWrapper:hover #binarizationRadioGaussianToolTip{
+  visibility: visible;
+}
+#binarizationRadioAdaptiveWrapper:hover #binarizationRadioAdaptiveToolTip{
+  visibility: visible;
+}
+#binarizationRadioNiblackWrapper:hover #binarizationRadioNiblackToolTip{
+  visibility: visible;
+}
+#binarizationRadioSauvolaWrapper:hover #binarizationRadioSauvolaToolTip{
+  visibility: visible;
+}
+
+
+/* image processing */
+#removeAllBoxButton:hover #removeAllBoxButtonToolTip{
+  visibility: visible;
+}
+#swap_selection_button:hover #swap_selection_button_tooltip{
+  visibility: visible;
+}
+#swap_frozen_selection_button:hover #swap_frozen_selection_button_tooltip{
+  visibility: visible;
+}
+#freeze_button:hover #freeze_button_tooltip{
+  visibility: visible;
+}
+
+/* transcription */
+#transcriptionPreviewButton:hover #transcriptionPreviewButtonToolTip{
+  visibility: visible;
+}
+#saveButton:hover #saveButtonToolTip{
+  visibility: visible;
+}
+#reloadButton:hover #reloadButtonToolTip{
+  visibility: visible;
+}
+#showAllBoxesButton:hover #showAllBoxesButtonToolTip{
+  visibility: visible;
+}
+#addBoxButton:hover #addBoxButtonToolTip{
+  visibility: visible;
+}
+#removeBoxButton:hover #removeBoxButtonToolTip{
+  visibility: visible;
+}
+#addToClusterButton:hover #addToClusterButtonToolTip{
+  visibility: visible;
+}
+#removeFromClusterButton:hover #removeFromClusterButtonToolTip{
+  visibility: visible;
+}
+#createNewClusterButton:hover #createNewClusterButtonToolTip{
+  visibility: visible;
+}
+#removeClusterButton:hover #removeClusterButtonToolTip{
+  visibility: visible;
+}
+#exportButton:hover #exportButtonToolTip{
+  visibility: visible;
+}
+
+.button_area{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  width: 11%;
+  height: 70%;
+  top: 0;
+  transform: translateY(25%);
+  z-index: 5;
+  transition: 0.3s;
+  background-color: var(--light_grey); 
+}
+.stateButton{
+  background-color: #11c800;
+  font-family: serif;
+  font-size: 1.3vw;
+  font-weight: bold;
+  padding: 7%;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10%;
+}
+#leftButtonArea{
+  left: 0;
+  border-radius: 0px 20px 20px 0px;
+}
+#leftButtonAreaWidget{
+  left: 0px;
+  border-radius: 0 999px 999px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+.buttonAreaCaptions{
+  padding: 5%;
+  position: relative;
+  color: white;
+  font-size: 1vw;
+  padding-bottom: 4%;
+  text-align: center;
+}
+.buttonAreaWidget{
+  cursor: pointer;
+  position: fixed; 
+  transition: 0.3s; 
+  padding: 0.9375%; 
+  width: 1.5%;
+  top: 1.5%;
+  background-color: var(--light_grey);
+  z-index: 4;
+}
+
+.listTitle{
+  color: white;
+  font-size: 1vw;
+  margin: 5%;
+}
+.onClickWidget{
+  width: 13%;
+}
+
+.RadioWrapper {
+  color: white;
+  font-family: serif;
+  font-size: 0.7vw;
+  font-weight: bold;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 5%;
+}
+
+.RadioWrapper > div{
+  display: flex;
+  align-items: end;
+}
+
+.radioHeader{
+  color: white;
+  border-bottom: solid 2px white;
+  font-size: 90%;
+}
+
+.inputWrapper{
+  background-color: var(--light_grey);
+  border: 2px solid white;
+  color: white;
+  font-family: serif;
+  font-size: 0.7vw;
+  font-weight: bold;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  padding-top: 2%;
+}
+
+.inputWrapper > input{
+  width: 70%;
+  background-color: inherit;
+  margin: 5%;
+  padding: 5%;
+  color: inherit;
+  border: 2px solid white;
+}
+
+label{
+  text-align: center;
+}
+
+.navigationElement{
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: white;
+  font-family: serif;
+  font-size: 1.5vw;
+  background: var(--light_grey);
+  border: solid 10px var(--light_grey);
+}
+
+/* ................................State Dropdown Menu........................................ */
+#dropdownWrapper{
+  height: 75%;
+  margin: 5%;
+  width: 80%;
+  border: 5px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stateWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  margin-top: 30%;
+}
+
+.innerStateWrapper{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: clip;
+  border: solid 2px white;
+  padding: 5%;
+}
+
+.stateDropdownMenu{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+}
+
+.dropdownState{
+  display: none;
+  text-align: center;
+  padding: 5%;
+  background: var(--mild_grey);
+  font-size: 0.7vw;
+}
+
+.active{
+  display: block;
+}
+
+
+.stateDropdownMenu:hover .dropdownState{
+  display: block;
+  z-index: 3;
+  position: relative;
+}
+
+.stateDropdownMenu > b:hover{
+  background: var(--dark_grey);
+}
+
+
+/* ................................Page Changers........................................ */
+.pageChangeWrapper{
+
+}
+
+#previousPageChanger{
+  border-right: solid 2px white;
+  padding-right: 3%;
+}
+
+#nextPageChanger{
+  border-left: solid 2px white;
+  padding-left: 3%;
+}
+
+/* ................................error widget........................................ */
+.errorWidget{
+  display: flex;
+  flex-direction: column;
+  position: fixed; 
+  transition: 0.3s; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--light_grey);
+  z-index: 6;
+  top: 20%;
+  border-radius: 10px;
+  visibility: hidden;
+  padding: 2%;
+}
+.onclickErrorWidget{
+  visibility: visible;
+  box-shadow: 0 0 0 10000px #0000009e;
+}
+.errorText{
+  color: white;
+  font-family: serif;
+  font-size: 1.2vw;
+  margin: 5%;
+  padding: 5%;
+  user-select: text; /* not supported by Safari*/
+  text-align: justify;
+}
+.errorButton{
+  border-radius: 10px 10px 10px 10px;
+  background-color: var(--darkest_grey);
+  cursor: pointer;
+  color: white;
+  font-family: serif;
+  font-size: 0.9vw;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 2%;
+  margin: auto 1.5% auto auto;
+}
+
+.saveWarning{
+  position: fixed;
+  top: 4%;
+  right: 2%;
+  z-index: 10;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.saveWarningText{
+  color: white;
+  font-size: 1.2vw;
+  padding: 5%;
+}
+
+/* .....................................Dialogwidget.................................................. */
+
+.dialogInputWidget{
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  position: fixed;
+  box-shadow: 0 0 0 10000px #0000009e;
+  z-index: 10;
+  background-color: var(--light_grey);
+  top: 5%;
+}
+.dialogInputWidgetHeader{
+  margin: 2%;
+  border-bottom: solid 2px white;
+}
+.dialogInputWidgetBody{
+  margin: 2%;
+}
+.dialogInputWidgetFooter{
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.dialogInputWidget button{
+  margin: 2%;
+  background-color: var(--mild_grey);
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.dialogInputWidget label{
+  margin: 2%;
+  font-size: 80%;
+  color: white;
+}
+.dialogInputWidget input{
+  margin: 2%;
+}
+.dialogInputWidget h3{
+  color: white;
+}
+
+.dialogInputWidgetHeader button{
+  float: right;
+}
+
+/* .....................................loader, hint.................................................. */
+
+.loadingText{
+  color: white;
+  font-family: serif;
+  font-size: 1.3vw;
+  padding-bottom: 5%;
+}
+
+.fa-spinner{
+  font-size: 2vw;
+  color: white;
+}
+.fa-info-circle{
+  margin-top: auto;
+  margin-left: auto;
+  color: white;
+  font-size: 0.85vw;
+  cursor: pointer;
+  pointer-events: all;
+}
+.infoInPop{
+  color: black;
+  font-size: 1.3vw;
+  margin-left: 90%;
+}
+
+/* .....................................browser specfic classes.................................................. */
+@-moz-document url-prefix() {
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 0.5; /* Firefox */
+    color: black;
+  }
+  
+}

@@ -1,0 +1,9 @@
+2024-03-02 18:19:23 - Welcome to the logs 
+ project: Example_project 
+ save: Borg 1 - unsupervised use case 
+2024-03-02 18:40:53 - Segmentation starting...
+2024-03-02 18:40:58 - Segmentation finished execution.
+2024-03-02 19:09:20 - Clustering starting...
+2024-03-02 19:09:29 - Clustering finished execution.
+2024-03-02 20:10:34 - Label propagation starting...
+2024-03-02 20:10:39 - Label propagation finished execution.
