@@ -31,7 +31,7 @@ There are also three student theses related to TranscriptTool:
 
 ## Acknowledgements
 
-I would like to give thanks to the entire [DECRYPT](https://de-crypt.org/) team for their continuous support and feedback! Developing TranscriptTool would not have been possible without them! I am especially thankful to: Beáta Megyesi and Mihály Héder for their mentoring; Jialuo Chen and Mohamed Ali Souibgui for their contribution with image processing algorithms; Ingrid Eliasson and Nikolina Milioni for their thorough user testing; Alicia Fornés, Bernhard Esslinger, Nils Kopal, Michelle Waldispühl, Benedek Láng, George Lasry, Crina Tudor, Vasily Mikhalev, and Eva Pettersson for their helpful feedback;finally, thanks be to Jesus Christ!
+I would like to give thanks to the entire [DECRYPT](https://de-crypt.org/) team for their continuous support and feedback! Developing TranscriptTool would not have been possible without them! I am especially thankful to: Beáta Megyesi and Mihály Héder for their mentoring; Jialuo Chen and Mohamed Ali Souibgui for their contribution with image processing algorithms; Ingrid Eliasson and Nikolina Milioni for their thorough user testing; Alicia Fornés, Bernhard Esslinger, Nils Kopal, Michelle Waldispühl, Benedek Láng, George Lasry, Crina Tudor, Vasily Mikhalev, and Eva Pettersson for their helpful feedback; finally, thanks be to Jesus Christ!
 
 ## Cipher/Alphabet Support
 
